@@ -80,6 +80,7 @@ Jocul se încheie când se întâlnește una din următoarele condiții
 -	Un rege se află în șah și nu se mai poate apăra, adică jucătorul nu are mutări posibile (Șah mat). Câștigă jucătorul adversar regelui în șah mat.
 -	Remiză. Aceasta se întâlnește când un jucător nu are mutări posibile iar regele nu se află în șah (pat) respectiv în cazul în care niciun jucător nu mai are material cu care este posibil un șah mat.
 Aceste condiții sunt verificate în funcția VerificareSfârșitJoc din clasa ChessGameController apelată în EndTurn. Funcția VerificareSfârșitJoc este de tip bool și returnează true în cazul în care găsește una din condițiile de mai sus. În acest caz, în EndTurn, se apelează funția SfârșitJoc, altfel funcția VerificareSfârșitJoc returnează false. Prima secvență a funcției verifică dacă un rege se află în șah mat:
+
  ![image](https://user-images.githubusercontent.com/77692523/223124487-c2c5037a-5716-4e57-9712-4d4e780d629a.png)
  
 A doua secvență verifică existența unei remize în care un jucător nu are mutări posibile iar regele nu se află în șah (pat):

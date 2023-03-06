@@ -19,10 +19,12 @@ Clasa în care muzica este transmisă la scena jocului:
 La intrare în scenă se apelează funcția StartJocNou din clasa ChessGameController care creează piesele și generează mutările posibile ale jucătorului activ (Alb):
 ![image](https://user-images.githubusercontent.com/77692523/223123907-1d226106-ddab-480f-afc5-cb4f67cfe31c.png)
 
-Clasa InputColliderReciever detectează apăsarea mouse-ului pe ecran și apelează funcția ProcesareInput din fiecare clasă derivată interfeței IInputHandler: 
+Clasa InputColliderReciever detectează apăsarea mouse-ului pe ecran și apelează funcția ProcesareInput din fiecare clasă derivată interfeței IInputHandler:
+
 ![image](https://user-images.githubusercontent.com/77692523/223123935-6189f0b7-1035-474c-8e18-3b19a292d9e0.png)
 
 Clasa HandlerInputTabla apelează funcția LaPătratSelectat, din clasa Tabla, la apăsarea mouse-ului pe ecran:
+
 ![image](https://user-images.githubusercontent.com/77692523/223123982-c8b217db-bdc2-474f-9d48-fa6777c2ddc8.png)
 
 În funcția LaPătratSelectat din clasa Tabla, dacă există deja o piesă selectată se verifică dacă aceasta este piesa de pe pozițiaInput (poziția mouse-ului la apăsare). În acest caz, se deselectează piesa iar în caz contrar, dacă există o piesă, de aceeași culoare cu a piesei selectate, pe coordonatele pozitieiInput se selectează acea piesă, altfel se mută piesa selectată pe acea poziție. Dacă nu există o piesă selectată și dacă există pe pozițiaInput o piesă de aceeași culoare cu a jucătorului activ, se selectează acea piesă.

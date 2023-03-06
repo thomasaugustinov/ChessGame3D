@@ -1,11 +1,13 @@
 # MAIN MENU:
 La intrarea în aplicație apare meniul principal al jocului unde se pot selecta 3 butoane:
 •	NEW GAME – la apăsarea acestui buton se deschide altă scena în care se află jocul.
+
 •	OPTIONS – la apăsarea acestui buton se deschide un al doilea meniu în care se poate controla volumul muzicii de fundal și un buton BACK care revine la meniul principal.
+
 •	EXIT – la apăsarea acestui buton se închide aplicația.
  ![image](https://user-images.githubusercontent.com/77692523/223123680-c9c18ab2-9b31-4620-9394-86bca6a76d50.png)
  
-#OPTIONS:
+# OPTIONS:
 Setarea volumului sunetului la intrarea in joc și modificarea lui la tragerea sliderului:
 ![image](https://user-images.githubusercontent.com/77692523/223123755-a9900a9e-14e0-4da3-aaf3-844cec7d4bef.png)
 

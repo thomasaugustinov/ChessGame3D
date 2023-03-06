@@ -62,6 +62,7 @@ Mutarea este neobișnuită pentru că este singura din jocul de șah în care pi
  
 
 3.	Promovarea pionului
+
 Promovarea pionului înseamnă transformarea acestuia atunci când este mutat pe ultima linie, la alegerea jucătorului, în regina, turn, cal sau nebun de aceeași culoare. Noua piesă înlocuiește pionul pe aceeași poziție.
 Am creat un meniu cu 4 butoane care se deschide când ajunge un pion pe ultima linie. Butoanele reprezintă piesele în care se poate promova pionul (Cal, Nebun, Turn, Regină). La apăsarea unui buton, pionul promovează în piesa corespunzătoare butonului. 
  ![image](https://user-images.githubusercontent.com/77692523/223124351-1b98d539-baeb-4876-8949-e9c1c3426acd.png)

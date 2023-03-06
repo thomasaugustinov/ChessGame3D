@@ -53,6 +53,7 @@ Regele poate efectua doua mutări speciale, numite rocada mică și rocada mare.
 
 
 2.	En Passant
+
 Regula En passant se aplică atunci când un jucător mută unul dintre pionii săi două poziții înainte și trece pe lângă un pion advers de către care ar fi putut fi capturat dacă ar fi fost mutat doar o poziție înainte. Regula spune că pionul care a efectuat mutarea poate fi capturat de cel advers doar la mutarea următoare, ca și când s-ar fi deplasat doar o poziție înainte. Dacă nu este capturat la prima mutare a adversarului, acesta pierde dreptul de a-l mai captura.
 Mutarea este neobișnuită pentru că este singura din jocul de șah în care piesa ce capturează nu rămâne pe câmpul pe care s-a aflat piesa capturată.
 

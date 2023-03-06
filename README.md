@@ -1,5 +1,6 @@
 # MAIN MENU:
 La intrarea în aplicație apare meniul principal al jocului unde se pot selecta 3 butoane:
+
 •	NEW GAME – la apăsarea acestui buton se deschide altă scena în care se află jocul.
 
 •	OPTIONS – la apăsarea acestui buton se deschide un al doilea meniu în care se poate controla volumul muzicii de fundal și un buton BACK care revine la meniul principal.

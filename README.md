@@ -38,7 +38,7 @@ Clasele Pion, Cal, Nebun, Turn, Regina, Rege returnează mutările posibile pent
 
 
 # Mutări speciale:
-1.	Rocada
+## 1.	Rocada
 
 Regele poate efectua doua mutări speciale, numite rocada mică și rocada mare. Rocada este o mutare specială, făcută de rege și de unul dintre turnuri. Ea constă în mutarea regelui două poziții spre turn și mutarea turnului pe poziția peste care a sărit regele. Când turnul este mutat doar două poziții se efectuează rocada mică, iar când este mutat trei poziții se efectuează rocada mare. Rocadele sunt posibile numai în cazul în care:
 -	 nici regele, nici turnul nu au fost mutați de la începutul jocului
@@ -52,7 +52,7 @@ Regele poate efectua doua mutări speciale, numite rocada mică și rocada mare.
 ![image](https://user-images.githubusercontent.com/77692523/223124223-8c24dfb2-f559-4f08-9e99-1f5c87adc8f8.png)
 
 
-2.	En Passant
+## 2.	En Passant
 
 Regula En passant se aplică atunci când un jucător mută unul dintre pionii săi două poziții înainte și trece pe lângă un pion advers de către care ar fi putut fi capturat dacă ar fi fost mutat doar o poziție înainte. Regula spune că pionul care a efectuat mutarea poate fi capturat de cel advers doar la mutarea următoare, ca și când s-ar fi deplasat doar o poziție înainte. Dacă nu este capturat la prima mutare a adversarului, acesta pierde dreptul de a-l mai captura.
 Mutarea este neobișnuită pentru că este singura din jocul de șah în care piesa ce capturează nu rămâne pe câmpul pe care s-a aflat piesa capturată.
@@ -61,7 +61,7 @@ Mutarea este neobișnuită pentru că este singura din jocul de șah în care pi
  ![image](https://user-images.githubusercontent.com/77692523/223124306-be363a8a-16de-4ad4-9f6e-bf712e9086d8.png)
  
 
-3.	Promovarea pionului
+## 3.	Promovarea pionului
 
 Promovarea pionului înseamnă transformarea acestuia atunci când este mutat pe ultima linie, la alegerea jucătorului, în regina, turn, cal sau nebun de aceeași culoare. Noua piesă înlocuiește pionul pe aceeași poziție.
 Am creat un meniu cu 4 butoane care se deschide când ajunge un pion pe ultima linie. Butoanele reprezintă piesele în care se poate promova pionul (Cal, Nebun, Turn, Regină). La apăsarea unui buton, pionul promovează în piesa corespunzătoare butonului. 

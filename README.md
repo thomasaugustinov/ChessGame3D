@@ -76,6 +76,7 @@ Când regele se află în șah, acesta trebuie să iasă din șah sau o altă pi
 După fiecare mutare, camera se rotește în jurul tablei schimbându-și perspectiva de la poziția jucătorului alb la cel negru și invers. Funcția care acționează animațiile camerei este EndTurn din clasa ChessGameController. În funcție se mai verifică dacă jocul s-a finalizat.
  ![image](https://user-images.githubusercontent.com/77692523/223124440-15fbd7ea-5e2c-4095-8077-5327874fd133.png)
  
+ # Condiții de finalizare joc
 Jocul se încheie când se întâlnește una din următoarele condiții
 -	Un rege se află în șah și nu se mai poate apăra, adică jucătorul nu are mutări posibile (Șah mat). Câștigă jucătorul adversar regelui în șah mat.
 -	Remiză. Aceasta se întâlnește când un jucător nu are mutări posibile iar regele nu se află în șah (pat) respectiv în cazul în care niciun jucător nu mai are material cu care este posibil un șah mat.

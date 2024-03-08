@@ -32,7 +32,6 @@ public class VolumeValueChange : MonoBehaviour
 ```
 
 Clasa în care muzica este transmisă la scena jocului:
-![image](https://user-images.githubusercontent.com/77692523/223123823-e5105297-a68a-46ef-8fab-e76ded833344.png)
 ```csharp
 public class HandlerInputAudio : MonoBehaviour
 {
@@ -54,24 +53,24 @@ public class HandlerInputAudio : MonoBehaviour
 # Chess (Scena Jocului):
 La intrare în scenă se apelează funcția StartJocNou din clasa ChessGameController care creează piesele și generează mutările posibile ale jucătorului activ (Alb):
 ```csharp
-    private void Start()
-    {
-        StartJocNou();
-    }
+private void Start()
+{
+    StartJocNou();
+}
 
-    private void StartJocNou()
-    {
-        Camera.main.transform.position = new Vector3(0f, 14f, -11.5f);
-        Camera.main.transform.rotation = Quaternion.Euler(55, 0, 0);
-        SetareStatutJoc(StatutJoc.Inceput);
-        UIManager.HideUI();
-        PromovarePion.HideUI();
-        tabla.SetareDependente(this);
-        CrearePieseDinLayout(layoutTablaInceput);
-        playerActiv = playerAlb;
-        GenerareMutariPosibileAleJucatorului(playerActiv);
-        SetareStatutJoc(StatutJoc.Jucare);
-    }
+private void StartJocNou()
+{
+    Camera.main.transform.position = new Vector3(0f, 14f, -11.5f);
+    Camera.main.transform.rotation = Quaternion.Euler(55, 0, 0);
+    SetareStatutJoc(StatutJoc.Inceput);
+    UIManager.HideUI();
+    PromovarePion.HideUI();
+    tabla.SetareDependente(this);
+    CrearePieseDinLayout(layoutTablaInceput);
+    playerActiv = playerAlb;
+    GenerareMutariPosibileAleJucatorului(playerActiv);
+    SetareStatutJoc(StatutJoc.Jucare);
+}
 ```
 
 Clasa InputColliderReciever detectează apăsarea mouse-ului pe ecran și apelează funcția ProcesareInput din fiecare clasă derivată interfeței IInputHandler:
